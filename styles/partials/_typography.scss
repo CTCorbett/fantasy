@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Istok+Web:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=La+Belle+Aurore);
+
+html {
+  color: #444;
+  font-family: 'Istok Web', Helvetica, Arial, sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  font-size: 1.6rem;
+  letter-spacing: .05rem;
+  line-height: 1.65;
+}
+
+header {
+  h1 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
+
+h1, h3 {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+h1 {
+  font-size: 2.1rem;
+}
+
+h2 {
+  margin-top: 1.6rem;
+  &.category-heading {
+    font-family: 'La Belle Aurore', cursive;
+  }
+}
+
+p {
+  margin-top: 2.4rem;
+}
+
+blockquote {
+  border-left: 3px solid #444;
+  margin: 2.4rem 1.6rem 0;
+  padding: 1rem 0 1rem 2rem;
+}

@@ -1,0 +1,40 @@
+@media screen and (min-width: 1px) {
+nav {
+  background: #444;
+  color: #EEE;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  width: 90vw;
+  z-index: 1000;
+  &.nav-site {
+    left: -100vw;
+    @media screen and (min-width: $break-tablet) {
+      float: left;
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 38vw;
+    }
+    @media screen and (min-width: $break-desktop) {
+      width: 20vw;
+    }
+  }
+  &.nav-series {
+    right: -100vw;
+    @media screen and (min-width: $break-desktop) {
+      float: right;
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 20vw;
+    }
+  }
+  &.nav-footer {
+    background: none;
+    height: auto;
+    position: inherit;
+    width: auto;
+  }
+}
+}
